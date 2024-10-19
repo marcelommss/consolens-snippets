@@ -3,6 +3,13 @@
   "displayName": "consolens-snippets",
   "description": "consolens-snippets is a collection of useful nippets for enhancing you usability of th Consolens package. Boost your development speed with ready-to-use log templates.",
   "version": "1.0.0",
+  "publisher": "marcelomms",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcelommss/consolens-snippets"
+  },
+  "author": "Marcelo Mattos (marcelomattos@hackem.com.br)",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.54.0"
   },
@@ -138,7 +145,7 @@
   },
   "scripts": {
     "vscode:prepublish": "pnpm run package",
-    "compile": "pnpm run check-types && pnpm run lint && node esbuild.js",
+    "compile": "npx tsc --noEmit && npm run lint && node esbuild.js",
     "watch": "npm-run-all -p watch:*",
     "watch:esbuild": "node esbuild.js --watch",
     "watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
@@ -151,16 +158,16 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.54.0",
     "@types/mocha": "^10.0.8",
     "@types/node": "20.x",
+    "@types/vscode": "^1.54.0",
     "@typescript-eslint/eslint-plugin": "^8.7.0",
     "@typescript-eslint/parser": "^8.7.0",
-    "eslint": "^9.11.1",
-    "esbuild": "^0.24.0",
-    "npm-run-all": "^4.1.5",
-    "typescript": "^5.6.2",
     "@vscode/test-cli": "^0.0.10",
-    "@vscode/test-electron": "^2.4.1"
+    "@vscode/test-electron": "^2.4.1",
+    "esbuild": "^0.24.0",
+    "eslint": "^9.11.1",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.6.3"
   }
 }
