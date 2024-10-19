@@ -1,0 +1,17 @@
+{
+  "Consolens Log Warning": {
+    "prefix": "logwarn",
+    "body": [
+      "logWarn({",
+      "  functionName: '$1',",
+      "  description: '$2',",
+      "  args: [$3],",
+      "  isEffect: $4,",
+      "  source: '${TM_DIRECTORY}/{$TM_FILENAME}',",
+      "  line: `${TM_CURRENT_LINE}`,",
+      "});",
+      "$0"
+    ],
+    "description": "Log a warning message using Consolens"
+  }
+}

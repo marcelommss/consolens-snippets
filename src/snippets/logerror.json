@@ -1,0 +1,17 @@
+{
+  "Consolens Log Error": {
+    "prefix": "logerror",
+    "body": [
+      "logError({",
+      "  functionName: '$1',",
+      "  description: '$2',",
+      "  args: [$3],",
+      "  isEffect: $4,",
+      "  source: '${TM_DIRECTORY}/{$TM_FILENAME}',",
+      "  line: `${TM_CURRENT_LINE}`,",
+      "});",
+      "$0"
+    ],
+    "description": "Log an error using Consolens"
+  }
+}

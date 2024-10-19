@@ -1,0 +1,14 @@
+{
+  "Log with consolens": {
+    "prefix": "consolog",
+    "body": [
+      "logInfo({",
+      "  description: '$2',",
+      "  source: '${TM_DIRECTORY}/{$TM_FILENAME}',",
+      "  line: `${TM_CURRENT_LINE}`,",
+      "});",
+      "$0"
+    ],
+    "description": "Log a message using Consolens with all LogParams properties"
+  }
+}

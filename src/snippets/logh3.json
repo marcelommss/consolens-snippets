@@ -1,0 +1,13 @@
+{
+  "Consolens Log Header 3": {
+    "prefix": "logh3",
+    "body": [
+      "logHeader({",
+      "  type: 'LOG_HEADER_TYPE.H3',",
+      "  title: '$1',",
+      "});",
+      "$0"
+    ],
+    "description": "Log a header using Consolens"
+  }
+}

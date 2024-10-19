@@ -1,0 +1,24 @@
+{
+  "Create a complete log with consolens": {
+    "prefix": "consolens",
+    "body": [
+      "log({",
+      "  type: LOG_TYPE.$1,",
+      "  functionName: '$3',",
+      "  isEffect: $4,",
+      "  description: '$5',",
+      "  args: [$6],",
+      "  messageColor: '$7',",
+      "  context: '$9',",
+      "  tags: $10,",
+      "  group: '$11',",
+      "  parentGroup: '$12',",
+      "  groupColor: $13",
+      "  source: '${TM_DIRECTORY}/{$TM_FILENAME}',",
+      "  line: `${TM_CURRENT_LINE}`,",
+      "});",
+      "$0"
+    ],
+    "description": "Log a message using Consolens with all LogParams properties and log type"
+  }
+}

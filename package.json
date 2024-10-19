@@ -12,10 +12,126 @@
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
-    "commands": [
+    "snippets": [
       {
-        "command": "consolens-snippets.helloWorld",
-        "title": "Hello World"
+        "language": "javascript",
+        "path": "./src/snippets/consolens.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/consolens.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/consolerror.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/consolerror.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/consolinf.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/consolinf.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/consolog.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/consolog.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/consolwarn.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/consolwarn.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/logcall.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/logcall.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/logerror.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/logerror.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/logh1.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/logh1.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/logh2.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/logh2.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/logh3.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/logh3.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/logh4.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/logh4.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/logh5.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/logh5.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/logheader.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/logheader.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/loginfo.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/loginfo.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/logwarn.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/logwarn.json"
       }
     ]
   },
