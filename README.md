@@ -1,71 +1,50 @@
-# consolens-snippets README
+# consolens-snippets
 
-This is the README for your extension "consolens-snippets". After writing up a brief description, we recommend including the following sections.
+**consolens-snippets** is a VS Code extension providing a collection of useful snippets for enhancing your productivity while using the Consolens package. This extension offers ready-to-use log templates, helping you boost development speed by quickly inserting commonly used logging code into your JavaScript and TypeScript files.
+
+NPM consolens package: https://www.npmjs.com/package/consolens
+
+Install consolens package by:
+```` bash
+npm install consolens
+or
+yarn add consolens
+or
+pnpm install consolens
+````
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+This extension includes a variety of snippets for logging and debugging, tailored specifically for the Consolens package.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 1.0.0 - Available Snippets
 
-### 1.0.0
+Here are the snippets you can use:
 
-Initial release of ...
+| Prefix         | Snippet Description                        | Language               |
+| -------------- | ------------------------------------------ | ---------------------- |
+| `loginfo`      | Logs an informational message with styling | JavaScript, TypeScript |
+| `logwarn`      | Logs a warning message with styling        | JavaScript, TypeScript |
+| `logerror`     | Logs an error message with styling         | JavaScript, TypeScript |
+| `consolens`    | Logs a basic Consolens log                 | JavaScript, TypeScript |
+| `consolog`     | Logs a message using Consolens             | JavaScript, TypeScript |
+| `consolinfo`   | Logs an info message using Consolens       | JavaScript, TypeScript |
+| `consolwarn`   | Logs a warning message using Consolens     | JavaScript, TypeScript |
+| `consolerror`  | Logs an error message using Consolens      | JavaScript, TypeScript |
+| `logcallout`   | Logs a callout message                     | JavaScript, TypeScript |
+| `logheader`    | Logs a styled header                       | JavaScript, TypeScript |
+| `logh1`        | Logs a header (H1 style)                   | JavaScript, TypeScript |
+| `logh2`        | Logs a header (H2 style)                   | JavaScript, TypeScript |
+| `logh3`        | Logs a header (H3 style)                   | JavaScript, TypeScript |
+| `logh4`        | Logs a header (H4 style)                   | JavaScript, TypeScript |
+| `logh5`        | Logs a header (H5 style)                   | JavaScript, TypeScript |
 
-### 1.0.1
+### Usage
 
-Fixed issue #.
+1. Open a JavaScript or TypeScript file in VS Code.
+2. Start typing one of the prefixes from the list above (e.g., `logconsolens`).
+3. Select the snippet from the IntelliSense dropdown or press `Tab` to expand it.
 
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+The snippet will be inserted at the current cursor location, providing you with a ready-to-use template for your logging needs.
