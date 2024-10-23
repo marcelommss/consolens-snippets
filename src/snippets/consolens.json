@@ -1,9 +1,9 @@
 {
-  "Create a complete log with consolens": {
+  "Create a complete log with consolens with all options": {
     "prefix": "consolens",
     "body": [
       "log({",
-      "\ttype: LOG_TYPE.$1,",
+      "\ttype: LOG_TYPE.$1INFO,",
       "\tmessage: '$2',",
       "\tmessageColor: '$3',",
       "\targs: [$4],",
@@ -19,6 +19,6 @@
       "});",
       "$0"
     ],
-    "description": "Log a message using Consolens with all LogParams properties and log type"
+    "description": "Complete consolens log function"
   }
 }

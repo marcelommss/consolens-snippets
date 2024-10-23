@@ -1,56 +1,19 @@
-const esbuild = require("esbuild");
+const fs = require('fs');
+const path = require('path');
 
-const production = process.argv.includes('--production');
-const watch = process.argv.includes('--watch');
+// Define source and destination directories
+const srcDir = path.resolve(__dirname, 'src/snippets');
+const distDir = path.resolve(__dirname, 'dist/snippets');
 
-/**
- * @type {import('esbuild').Plugin}
- */
-const esbuildProblemMatcherPlugin = {
-	name: 'esbuild-problem-matcher',
-
-	setup(build) {
-		build.onStart(() => {
-			console.log('[watch] build started');
-		});
-		build.onEnd((result) => {
-			result.errors.forEach(({ text, location }) => {
-				console.error(`✘ [ERROR] ${text}`);
-				console.error(`    ${location.file}:${location.line}:${location.column}:`);
-			});
-			console.log('[watch] build finished');
-		});
-	},
-};
-
-async function main() {
-	const ctx = await esbuild.context({
-		entryPoints: [
-			'src/extension.ts'
-		],
-		bundle: true,
-		format: 'cjs',
-		minify: production,
-		sourcemap: !production,
-		sourcesContent: false,
-		platform: 'node',
-		outfile: 'dist/extension.js',
-		external: ['vscode'],
-		logLevel: 'silent',
-		plugins: [
-			/* add to the end of plugins array */
-			esbuildProblemMatcherPlugin,
-		],
-	});
-	if (watch) {
-		await ctx.watch();
-	} else {
-		await ctx.rebuild();
-		await ctx.dispose();
-	}
+// Ensure the destination directory exists
+if (!fs.existsSync(distDir)) {
+    fs.mkdirSync(distDir, { recursive: true });
 }
 
-main().catch(e => {
-	console.error(e);
-	process.exit(1);
+// Copy all snippet files from src/snippets to dist/snippets
+fs.readdirSync(srcDir).forEach(file => {
+    const srcFile = path.join(srcDir, file);
+    const distFile = path.join(distDir, file);
+    fs.copyFileSync(srcFile, distFile);
+    console.log(`Copied ${file} to dist/snippets`);
 });

@@ -1,0 +1,17 @@
+{
+  "Consolens Log Warning with hard code source map": {
+    "prefix": "logwarn",
+    "body": [
+      "logWarn({",
+      "\tmessage: '$1',",
+      "\targs: [$2],",
+      "\tisEffect: $3,",
+      "\tfunctionName: '$4',",
+      "\tsource: '${TM_DIRECTORY}/{$TM_FILENAME}',",
+      "\tline: `${TM_CURRENT_LINE}`,",
+      "});",
+      "$0"
+    ],
+    "description": "Log a warning message using Consolens"
+  }
+}

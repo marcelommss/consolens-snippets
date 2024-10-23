@@ -1,6 +1,6 @@
 {
   "Consolens Log Callout": {
-    "prefix": "logcallout",
+    "prefix": ["logcall", "logcallout"],
     "body": [
       "logCallout({",
       "\ttype: LOG_HEADER_TYPE.H$14,",
