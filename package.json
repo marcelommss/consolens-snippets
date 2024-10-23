@@ -196,23 +196,23 @@
       },
       {
         "language": "javascript",
-        "path": "./dist/snippets/logcall.json"
+        "path": "./dist/snippets/logcallout.json"
       },
       {
         "language": "typescript",
-        "path": "./dist/snippets/logcall.json"
+        "path": "./dist/snippets/logcallout.json"
       },
       {
         "language": "javascriptreact",
-        "path": "./dist/snippets/logcall.json"
+        "path": "./dist/snippets/logcallout.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./dist/snippets/logcall.json"
+        "path": "./dist/snippets/logcallout.json"
       },
       {
         "language": "vue",
-        "path": "./dist/snippets/logcall.json"
+        "path": "./dist/snippets/logcallout.json"
       },
       {
         "language": "javascript",
@@ -253,6 +253,26 @@
       {
         "language": "vue",
         "path": "./dist/snippets/logerrorc.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./dist/snippets/logerrorm.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./dist/snippets/logerrorm.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./dist/snippets/logerrorm.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./dist/snippets/logerrorm.json"
+      },
+      {
+        "language": "vue",
+        "path": "./dist/snippets/logerrorm.json"
       },
       {
         "language": "javascript",
@@ -416,6 +436,26 @@
       },
       {
         "language": "javascript",
+        "path": "./dist/snippets/loginfom.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./dist/snippets/loginfom.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./dist/snippets/loginfom.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./dist/snippets/loginfom.json"
+      },
+      {
+        "language": "vue",
+        "path": "./dist/snippets/loginfom.json"
+      },
+      {
+        "language": "javascript",
         "path": "./dist/snippets/logwarn.json"
       },
       {
@@ -453,6 +493,26 @@
       {
         "language": "vue",
         "path": "./dist/snippets/logwarnc.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./dist/snippets/logwarnm.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./dist/snippets/logwarnm.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./dist/snippets/logwarnm.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./dist/snippets/logwarnm.json"
+      },
+      {
+        "language": "vue",
+        "path": "./dist/snippets/logwarnm.json"
       }
     ]
   }
