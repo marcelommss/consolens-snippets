@@ -2,7 +2,7 @@
   "Log with consolens": {
     "prefix": ["log", "llog","loglens", "lenslog"],
     "body": [
-      "$1loglens($2);",
+      "loglens('$1');",
       "$0"
     ],
     "description": "Log using Consolens. Examples: loglens('This is a log'); loglens({ LOG_TYPE.INFORMATION, 'This is also a log' }); loglens({ LOG_TYPE.ERROR, new Error() });"
