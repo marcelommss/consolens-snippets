@@ -19,6 +19,12 @@
   "icon": "icon.png",
   "activationEvents": [],
   "main": "./dist/extension.js",
+  "files": [
+    "dist/",
+    "src/snippets/",
+    "icon.png",
+    "README.md"
+  ],
   "contributes": {
     "snippets": [
       {
@@ -30,11 +36,35 @@
         "path": "./src/snippets/clens.json"
       },
       {
+        "language": "javascriptreact",
+        "path": "./src/snippets/clens.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/clens.json"
+      },
+      {
+        "language": "vue",
+        "path": "./src/snippets/clens.json"
+      },
+      {
         "language": "javascript",
         "path": "./src/snippets/consolens.json"
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/consolens.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/consolens.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/consolens.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/consolens.json"
       },
       {
@@ -43,6 +73,18 @@
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/consolerror.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/consolerror.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/consolerror.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/consolerror.json"
       },
       {
@@ -51,6 +93,18 @@
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/consolinf.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/consolinf.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/consolinf.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/consolinf.json"
       },
       {
@@ -59,6 +113,18 @@
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/consolog.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/consolog.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/consolog.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/consolog.json"
       },
       {
@@ -67,6 +133,18 @@
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/consolwarn.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/consolwarn.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/consolwarn.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/consolwarn.json"
       },
       {
@@ -75,6 +153,18 @@
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/llog.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/llog.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/llog.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/llog.json"
       },
       {
@@ -83,6 +173,18 @@
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/logcall.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/logcall.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/logcall.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/logcall.json"
       },
       {
@@ -91,6 +193,18 @@
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/logerror.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/logerror.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/logerror.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/logerror.json"
       },
       {
@@ -99,6 +213,18 @@
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/logerrorc.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/logerrorc.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/logerrorc.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/logerrorc.json"
       },
       {
@@ -107,6 +233,18 @@
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/logh1.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/logh1.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/logh1.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/logh1.json"
       },
       {
@@ -115,6 +253,18 @@
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/logh2.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/logh2.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/logh2.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/logh2.json"
       },
       {
@@ -123,6 +273,18 @@
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/logh3.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/logh3.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/logh3.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/logh3.json"
       },
       {
@@ -131,6 +293,18 @@
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/logh4.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/logh4.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/logh4.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/logh4.json"
       },
       {
@@ -139,6 +313,18 @@
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/logh5.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/logh5.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/logh5.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/logh5.json"
       },
       {
@@ -147,6 +333,18 @@
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/logheader.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/logheader.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/logheader.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/logheader.json"
       },
       {
@@ -155,6 +353,18 @@
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/loginfo.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/loginfo.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/loginfo.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/loginfo.json"
       },
       {
@@ -163,6 +373,18 @@
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/loginfoc.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/loginfoc.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/loginfoc.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/loginfoc.json"
       },
       {
@@ -171,6 +393,18 @@
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/logwarn.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/logwarn.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/logwarn.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/logwarn.json"
       },
       {
@@ -179,6 +413,18 @@
       },
       {
         "language": "typescript",
+        "path": "./src/snippets/logwarnc.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/logwarnc.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/logwarnc.json"
+      },
+      {
+        "language": "vue",
         "path": "./src/snippets/logwarnc.json"
       }
     ]
@@ -189,7 +435,7 @@
     "watch": "npm-run-all -p watch:*",
     "watch:esbuild": "node esbuild.js --watch",
     "watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
-    "package": "pnpm run check-types && pnpm run lint && node esbuild.js --production",
+    "package": "npm run check-types && npm run lint && node esbuild.js --production && node copy-snippets.js",
     "compile-tests": "tsc -p . --outDir out",
     "watch-tests": "tsc -p . -w --outDir out",
     "pretest": "pnpm run compile-tests && pnpm run compile && pnpm run lint",
@@ -205,6 +451,7 @@
     "@typescript-eslint/parser": "^8.7.0",
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1",
+    "cpx": "^1.5.0",
     "esbuild": "^0.24.0",
     "eslint": "^9.11.1",
     "npm-run-all": "^4.1.5",
