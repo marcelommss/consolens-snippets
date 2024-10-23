@@ -2,7 +2,7 @@
   "Consolens Log Error (complete)": {
     "prefix": "consolerror",
     "body": [
-      "$1logError({",
+      "logError$1({",
       "\tmessage: '$2',",
       "\targs: [${3:error}],",
       "\tmessageColor: '$4',",

@@ -2,7 +2,7 @@
   "Consolens Log Info (complete options)": {
     "prefix": ["loginfo","consolinf"],
     "body": [
-      "$1logInfo({",
+      "logInfo$1({",
       "\tmessage: '$2',",
       "\targs: [$3],",
       "\tcontext: '$4',",

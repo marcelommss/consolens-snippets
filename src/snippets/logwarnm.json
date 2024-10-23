@@ -2,7 +2,7 @@
   "Consolens Log Warning with hard code source map": {
     "prefix": "logwarn",
     "body": [
-      "$1logWarn({",
+      "logWarn$1({",
       "\tmessage: '$2',",
       "\targs: [$3],",
       "\tisEffect: $4,",

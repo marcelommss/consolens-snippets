@@ -2,7 +2,7 @@
   "Consolens Log Warning (complete)": {
     "prefix": "consolwarn",
     "body": [
-      "$1logWarning({",
+      "logWarning$1({",
       "\tmessage: '$2',",
       "\tmessageColor: '$3',",
       "\targs: [$4],",

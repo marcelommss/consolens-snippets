@@ -2,7 +2,7 @@
   "Consolens Log Header": {
     "prefix": "logheader",
     "body": [
-      "$1logHeader({",
+      "logHeader$1({",
       "\ttype: LOG_HEADER_TYPE.$1H3,",
       "\ttitle: '$6',",
       "});",

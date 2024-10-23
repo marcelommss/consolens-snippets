@@ -2,7 +2,7 @@
   "Consolens Log Error with hard code source map": {
     "prefix": "logerror",
     "body": [
-      "$1logError({",
+      "logError$1({",
       "\tmessage: '$2',",
       "\targs: [$3error],",
       "\tisEffect: $4,",

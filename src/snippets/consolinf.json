@@ -2,7 +2,7 @@
   "Consolens Log Information (complete)": {
     "prefix": "consolinf",
     "body": [
-      "$1logInfo({",
+      "logInfo$1({",
       "\tmessage: '$2',",
       "\tmessageColor: '$3',",
       "\targs: [$4],",

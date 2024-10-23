@@ -2,7 +2,7 @@
   "Consolens Log Error": {
     "prefix": "logerror",
     "body": [
-      "$1logError({",
+      "logError$1({",
       "\tmessage: '$2',",
       "\targs: [$3error],",
       "\tcontext: '$4',",

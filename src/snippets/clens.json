@@ -2,7 +2,7 @@
   "Log with consolens": {
     "prefix": ["clog", "clens"],
     "body": [
-      "$1logInfo({",
+      "logInfo$1({",
       "\tmessage: '$2',",
       "\targs: [$3],",
       "});",

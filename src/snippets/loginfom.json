@@ -2,7 +2,7 @@
   "Consolens Log Info with hard code source map": {
     "prefix": "loginfo",
     "body": [
-      "$1logInfo({",
+      "logInfo$1({",
       "\tmessage: '$2',",
       "\targs: [$3],",
       "\tisEffect: $4,",

@@ -2,7 +2,7 @@
   "Consolens Log Warning": {
     "prefix": "logwarnc",
     "body": [
-      "$1logWarn({",
+      "logWarn$1({",
       "\tmessage: '$2',",
       "\targs: [$3],",
       "\tcontext: '$4',",
