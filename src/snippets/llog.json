@@ -1,6 +1,6 @@
 {
   "Log with consolens": {
-    "prefix": "llog",
+    "prefix": ["log", "llog","loglens", "lenslog"],
     "body": [
       "$1loglens($2);",
       "$0"
