@@ -2,7 +2,7 @@
   "name": "consolens-snippets",
   "displayName": "consolens-snippets",
   "description": "consolens-snippets is a collection of useful nippets for enhancing you usability of th Consolens package. Boost your development speed with ready-to-use log templates.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "Hackem",
   "repository": {
     "type": "git",
