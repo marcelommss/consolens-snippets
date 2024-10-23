@@ -2,9 +2,9 @@
   "Consolens Log Header 3": {
     "prefix": "logh3",
     "body": [
-      "logHeader({",
+      "$1logHeader({",
       "\ttype: LOG_HEADER_TYPE.H3,",
-      "\ttitle: '$1',",
+      "\ttitle: '$3',",
       "});",
       "$0"
     ],

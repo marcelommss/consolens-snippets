@@ -2,13 +2,13 @@
   "Consolens Log Warning": {
     "prefix": "logwarnc",
     "body": [
-      "logWarn({",
-      "\tmessage: '$1',",
-      "\targs: [$2],",
-      "\tcontext: '$3',",
-      "\ttags: [$4],",
-      "\tgroup: '$5',",
-      "\tparentGroup: '$6',",
+      "$1logWarn({",
+      "\tmessage: '$2',",
+      "\targs: [$3],",
+      "\tcontext: '$4',",
+      "\ttags: [$5],",
+      "\tgroup: '$6',",
+      "\tparentGroup: '$7',",
       "});",
       "$0"
     ],

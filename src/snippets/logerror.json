@@ -2,9 +2,9 @@
   "Consolens Log Error": {
     "prefix": "logerror",
     "body": [
-      "logError({",
-      "\tmessage: '$1',",
-      "\targs: [$2error],",
+      "$1logError({",
+      "\tmessage: '$2',",
+      "\targs: [$3error],",
       "});",
       "$0"
     ],

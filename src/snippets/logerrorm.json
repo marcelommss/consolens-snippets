@@ -2,11 +2,11 @@
   "Consolens Log Error with hard code source map": {
     "prefix": "logerror",
     "body": [
-      "logError({",
-      "\tmessage: '$1',",
-      "\targs: [$2error],",
-      "\tisEffect: $3,",
-      "\tfunctionName: '$4',",
+      "$1logError({",
+      "\tmessage: '$2',",
+      "\targs: [$3error],",
+      "\tisEffect: $4,",
+      "\tfunctionName: '$5',",
       "\tsource: '${TM_DIRECTORY}/{$TM_FILENAME}',",
       "\tline: `${TM_CURRENT_LINE}`,",
       "});",

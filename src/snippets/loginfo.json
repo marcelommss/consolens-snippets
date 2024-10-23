@@ -2,9 +2,9 @@
   "Consolens Log Info": {
     "prefix": "loginfo",
     "body": [
-      "logInfo({",
+      "$1logInfo({",
       "\tmessage: '$1',",
-      "\targs: [$2],",
+      "\targs: [$7],",
       "});",
       "$0"
     ],

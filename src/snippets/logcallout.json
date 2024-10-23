@@ -2,10 +2,10 @@
   "Consolens Log Callout": {
     "prefix": ["logcall", "logcallout"],
     "body": [
-      "logCallout({",
-      "\ttype: LOG_HEADER_TYPE.H$14,",
-      "\ttitle: '$2',",
-      "\ticon: Icons.$3,",
+      "$1logCallout({",
+      "\ttype: LOG_HEADER_TYPE.H$24,",
+      "\ttitle: '$3',",
+      "\ticon: Icons.$4,",
       "});",
       "$0"
     ],

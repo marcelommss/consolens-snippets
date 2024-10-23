@@ -2,13 +2,13 @@
   "Consolens Log Error": {
     "prefix": "logerror",
     "body": [
-      "logError({",
-      "\tmessage: '$1',",
-      "\targs: [$2error],",
-      "\tcontext: '$3',",
-      "\ttags: [$4],",
-      "\tgroup: '$5',",
-      "\tparentGroup: '$6',",
+      "$1logError({",
+      "\tmessage: '$2',",
+      "\targs: [$3error],",
+      "\tcontext: '$4',",
+      "\ttags: [$5],",
+      "\tgroup: '$6',",
+      "\tparentGroup: '$7',",
       "});",
       "$0"
     ],

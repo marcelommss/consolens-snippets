@@ -2,9 +2,9 @@
   "Log with consolens": {
     "prefix": "llog",
     "body": [
-      "log($1);",
+      "$1loglens($2);",
       "$0"
     ],
-    "description": "Log a message using Consolens with any or LogParams properties"
+    "description": "Log using Consolens. Examples: loglens('This is a log'); loglens({ LOG_TYPE.INFORMATION, 'This is also a log' }); loglens({ LOG_TYPE.ERROR, new Error() });"
   }
 }
