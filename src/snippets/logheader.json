@@ -4,7 +4,7 @@
     "body": [
       "logHeader$1({",
       "\ttype: LOG_HEADER_TYPE.$1H3,",
-      "\ttitle: '$6',",
+      "\ttitle: '$2',",
       "});",
       "$0"
     ],

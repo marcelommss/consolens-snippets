@@ -1,0 +1,13 @@
+{
+  "Consolens Log Header": {
+    "prefix": "logdiv",
+    "body": [
+      "logDivider$1({",
+      "\tchar: '$2=',",
+      "\tlength: $372,",
+      "});",
+      "$0"
+    ],
+    "description": "Log a divider using Consolens"
+  }
+}
