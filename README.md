@@ -16,10 +16,11 @@ pnpm install consolens
 ## Features
 
 This extension includes a variety of snippets for logging and debugging, tailored specifically for the Consolens package.
+For more details on all features, visit the [Features Documentation](./FEATURES.md).
 
 ## Release Notes
 
-### 1.0.0 - Available Snippets
+### 1.0.5 - Available Snippets
 
 Here are the snippets you can use:
 
