@@ -3,9 +3,9 @@
     "prefix": "logcall",
     "body": [
       "logCallout({",
-      "  type: LOG_HEADER_TYPE.$1H3,",
-      "  icon: Icons.$2,",
-      "  title: '$3',",
+      "\ttype: LOG_HEADER_TYPE.H$14,",
+      "\ttitle: '$2',",
+      "\ticon: Icons.$3,",
       "});",
       "$0"
     ],

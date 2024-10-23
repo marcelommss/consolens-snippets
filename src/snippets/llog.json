@@ -1,0 +1,10 @@
+{
+  "Log with consolens": {
+    "prefix": "llog",
+    "body": [
+      "log($1);",
+      "$0"
+    ],
+    "description": "Log a message using Consolens with any or LogParams properties"
+  }
+}

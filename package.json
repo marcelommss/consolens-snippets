@@ -2,7 +2,7 @@
   "name": "consolens-snippets",
   "displayName": "consolens-snippets",
   "description": "consolens-snippets is a collection of useful nippets for enhancing you usability of th Consolens package. Boost your development speed with ready-to-use log templates.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "marcelomms",
   "repository": {
     "type": "git",
@@ -23,6 +23,14 @@
     "snippets": [
       {
         "language": "javascript",
+        "path": "./src/snippets/clens.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/clens.json"
+      },
+      {
+        "language": "javascript",
         "path": "./src/snippets/consolens.json"
       },
       {
@@ -63,6 +71,14 @@
       },
       {
         "language": "javascript",
+        "path": "./src/snippets/llog.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/llog.json"
+      },
+      {
+        "language": "javascript",
         "path": "./src/snippets/logcall.json"
       },
       {
@@ -76,6 +92,14 @@
       {
         "language": "typescript",
         "path": "./src/snippets/logerror.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/logerrorc.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/logerrorc.json"
       },
       {
         "language": "javascript",
@@ -135,11 +159,27 @@
       },
       {
         "language": "javascript",
+        "path": "./src/snippets/loginfoc.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/loginfoc.json"
+      },
+      {
+        "language": "javascript",
         "path": "./src/snippets/logwarn.json"
       },
       {
         "language": "typescript",
         "path": "./src/snippets/logwarn.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/logwarnc.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./src/snippets/logwarnc.json"
       }
     ]
   },

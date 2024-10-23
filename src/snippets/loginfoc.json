@@ -1,0 +1,17 @@
+{
+  "Consolens Log Info": {
+    "prefix": "loginfo",
+    "body": [
+      "logInfo({",
+      "\tmessage: '$1',",
+      "\targs: [$2],",
+      "\tisEffect: $3,",
+      "\tfunctionName: '$4',",
+      "\tsource: '${TM_DIRECTORY}/{$TM_FILENAME}',",
+      "\tline: `${TM_CURRENT_LINE}`,",
+      "});",
+      "$0"
+    ],
+    "description": "Log an informational message using Consolens"
+  }
+}

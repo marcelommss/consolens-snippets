@@ -1,0 +1,17 @@
+{
+  "Consolens Log Error": {
+    "prefix": "logerrorc",
+    "body": [
+      "logError({",
+      "\tmessage: '$2',",
+      "\targs: [$3],",
+      "\tisEffect: $4,",
+      "\tfunctionName: '$1',",
+      "\tsource: '${TM_DIRECTORY}/{$TM_FILENAME}',",
+      "\tline: `${TM_CURRENT_LINE}`,",
+      "});",
+      "$0"
+    ],
+    "description": "Log an error using Consolens"
+  }
+}

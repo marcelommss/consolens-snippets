@@ -3,8 +3,8 @@
     "prefix": "logheader",
     "body": [
       "logHeader({",
-      "  type: LOG_HEADER_TYPE.$1H3,",
-      "  title: '$2',",
+      "\ttype: LOG_HEADER_TYPE.$1H3,",
+      "\ttitle: '$2',",
       "});",
       "$0"
     ],

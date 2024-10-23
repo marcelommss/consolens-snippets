@@ -3,12 +3,9 @@
     "prefix": "loginfo",
     "body": [
       "logInfo({",
-      "  functionName: '$1',",
-      "  description: '$2',",
-      "  args: [$3],",
-      "  isEffect: $4,",
-      "  source: '${TM_DIRECTORY}/{$TM_FILENAME}',",
-      "  line: `${TM_CURRENT_LINE}`,",
+      "\tfunctionName: '$1',",
+      "\tmessage: '$2',",
+      "\targs: [$3],",
       "});",
       "$0"
     ],

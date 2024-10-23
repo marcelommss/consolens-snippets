@@ -1,9 +1,9 @@
 {
   "Log with consolens": {
-    "prefix": "consolog",
+    "prefix": ["clog", "clens"],
     "body": [
       "logInfo({",
-      "\tmessage: '$2',",
+      "\tmessage: '$1',",
       "\targs: [$2],",
       "});",
       "$0"
