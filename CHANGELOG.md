@@ -2,6 +2,13 @@
 
 All notable changes to the "consolens-snippets" extension will be documented in this file.
 
+## [1.0.5] - 2024-10-30
+### Added
+- Added snippet for dev.
+
+### Fixes
+- Fixed log info duplicate parameter.
+
 ## [1.0.4] - 2024-10-23
 ### Added
 - Created the changelog and features information.

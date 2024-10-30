@@ -1,0 +1,17 @@
+{
+  "Consolens Log Info (complete options)": {
+    "prefix": ["logdevinfo","consoldevinf"],
+    "body": [
+      "logDevInfo$1({",
+      "\tmessage: '$2',",
+      "\targs: [$3],",
+      "\tcontext: '$4',",
+      "\ttags: [$5],",
+      "\tgroup: '$6',",
+      "\tparentGroup: '$7',",
+      "});",
+      "$0"
+    ],
+    "description": "Log an informational message using Consolens with all LogParams properties in dev mode"
+  }
+}

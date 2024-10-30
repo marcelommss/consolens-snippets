@@ -3,8 +3,8 @@
     "prefix": "loginfo",
     "body": [
       "logInfo$1({",
-      "\tmessage: '$1',",
-      "\targs: [$7],",
+      "\tmessage: '$2',",
+      "\targs: [$3],",
       "});",
       "$0"
     ],

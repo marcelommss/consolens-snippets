@@ -2,7 +2,7 @@
   "name": "consolens-snippets",
   "displayName": "consolens-snippets",
   "description": "consolens-snippets is a collection of useful nippets for enhancing you usability of th Consolens package. Boost your development speed with ready-to-use log templates.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "publisher": "Hackem",
   "repository": {
     "type": "git",
@@ -453,6 +453,66 @@
       {
         "language": "vue",
         "path": "./dist/snippets/loginfom.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./dist/snippets/logdevinfo.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./dist/snippets/logdevinfo.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./dist/snippets/logdevinfo.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./dist/snippets/logdevinfo.json"
+      },
+      {
+        "language": "vue",
+        "path": "./dist/snippets/logdevinfo.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./dist/snippets/logdevinfoc.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./dist/snippets/logdevinfoc.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./dist/snippets/logdevinfoc.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./dist/snippets/logdevinfoc.json"
+      },
+      {
+        "language": "vue",
+        "path": "./dist/snippets/logdevinfoc.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./dist/snippets/logdevinfom.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./dist/snippets/logdevinfom.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./dist/snippets/logdevinfom.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./dist/snippets/logdevinfom.json"
+      },
+      {
+        "language": "vue",
+        "path": "./dist/snippets/logdevinfom.json"
       },
       {
         "language": "javascript",

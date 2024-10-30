@@ -1,0 +1,13 @@
+{
+  "Consolens Log DEV Info": {
+    "prefix": "logdevinfo",
+    "body": [
+      "logDevInfo$1({",
+      "\tmessage: '$2',",
+      "\targs: [$3],",
+      "});",
+      "$0"
+    ],
+    "description": "Log an informational message using Consolens in dev mode"
+  }
+}

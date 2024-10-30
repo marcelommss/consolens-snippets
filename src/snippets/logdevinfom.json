@@ -1,0 +1,17 @@
+{
+  "Consolens Log Info with hard code source map": {
+    "prefix": "logdevinfo",
+    "body": [
+      "logDevInfo$1({",
+      "\tmessage: '$2',",
+      "\targs: [$3],",
+      "\tisEffect: $4,",
+      "\tfunctionName: '$5',",
+      "\tsource: '${TM_DIRECTORY}/{$TM_FILENAME}',",
+      "\tline: `${TM_CURRENT_LINE}`,",
+      "});",
+      "$0"
+    ],
+    "description": "Log an informational message using Consolens in dev mode"
+  }
+}
